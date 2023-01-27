@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="Chrome"/>
+<parameter name="driveURL" value="https://webp-gcp.classplusapp.com/"/>
+<parameter name="siteURL" value="https://webp-gcp.classplusapp.com/"/>
+  
+  <test name="Test">
+  
+  <classes>
+    
+     <class name="com.classplus.basetests.ClassplusLoginTest"/>
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
